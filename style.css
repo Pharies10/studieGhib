@@ -1,0 +1,31 @@
+#sidebarholder{
+    width: 25%;
+    height: 100%;
+    
+    background-color:red;
+    position: fixed;
+    right: 0px;
+    top: 0px;
+}
+
+#infoholder{
+    width:75%;
+    height:100%;
+    background-color: black;
+    position: fixed;
+    right: 25%;
+    top:0px;
+}
+
+#sidebartitle{
+    width:100%;
+    height: 20%;
+    
+    background-color: aqua;
+}
+
+#titleholder{
+    width: 100%;
+    height: 80%;
+    background-color: aquamarine;
+}
