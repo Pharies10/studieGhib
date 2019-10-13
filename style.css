@@ -11,7 +11,7 @@
 #infoholder{
     width:75%;
     height:100%;
-    background-color: black;
+    background-color: #c3cde3;
     position: fixed;
     right: 25%;
     top:0px;
@@ -20,12 +20,71 @@
 #sidebartitle{
     width:100%;
     height: 20%;
-    
-    background-color: aqua;
+    text-align: center;
+    background-color: #E13B48;
+    color: #c3cde3;
+    text-shadow: 2px 2px 4px #000000;
 }
 
 #titleholder{
     width: 100%;
     height: 80%;
-    background-color: aquamarine;
+    background-color: #E77C7B;
+    overflow: auto;
 }
+
+
+#title
+{
+    margin-top: 0px;
+    padding-top: 20px;
+    
+
+    
+}
+
+
+.movieTitle
+{
+    
+    text-align: center;
+    font-size: 16pt;
+    padding-bottom: 7px;
+    border: solid;
+
+}
+
+
+
+.titleOfMovie, .descript, .release, .rt, .produce, .direct
+{
+    color: #E77C7B;
+    border:solid;
+    border-color: #88565A;
+    font-size: 30pt;
+    
+    
+}
+
+.release{
+    width: 48%;
+    display: inline-block;
+    padding: 0px;
+    margin-right: 0px;
+}
+.rt{
+    float:right;
+    width:50%;
+}
+
+.produce{
+    width: 48%;
+    display: inline-block;
+    padding: 0px;
+    margin-right: 0px;
+}
+.direct{
+    float:right;
+    width:50%;
+}
+
