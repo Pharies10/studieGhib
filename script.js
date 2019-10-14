@@ -90,7 +90,7 @@ var display = function(data, mean)
     
     d3.select("#infoholder").append("div")
         .attr("class", "rt")
-        .text("Click here for comparison of Rotten Tomato Scores: " + data.rt_score).on("click", function(){alert("the mean score of all movies is: " + mean + " while the score of this movie is: " + data.rt_score)    })
+        .text("Click here for comparison of Rotten Tomato Scores: " + data.rt_score).on("click", function(){alert("The average score of all movies is: " + mean + ", while the score of this movie is: " + data.rt_score)    })
      
     
 }
