@@ -6,7 +6,7 @@
 
 //make initial promise
 
-var moviePromise = d3.json("GET", "https://ghibliapi.herokuapp.com/films")
+var moviePromise = d3.json(src="https://ghibliapi.herokuapp.com/films")
 
 
 //make success
